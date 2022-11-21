@@ -9,4 +9,4 @@ import io.cucumber.testng.CucumberOptions;
                 "json:cucumber-json.json"
         }
 )
-public class CucumberTest extends AbstractTestNGCucumberTests {}
+public class CucumberRunnerTest extends AbstractTestNGCucumberTests {}
