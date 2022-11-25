@@ -9,7 +9,7 @@ Feature: Login
     When user click on login button
     Then user is on homepage
 
-  @negaitf-test
+  @negative-test
   Scenario: Login with invalid email and password
     Given user is on login page
     And user input username with "standard_user"
