@@ -5,7 +5,7 @@ import io.cucumber.java.*;
 public class CucumberHooks {
 
   @BeforeAll
-  public static void before_all() {
+  public static void beforeAll() {
     BaseTest.setupDriver();
   }
 
